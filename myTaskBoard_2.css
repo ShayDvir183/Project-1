@@ -1,0 +1,82 @@
+/* CodePen Stuff */
+
+
+.header{
+    text-align: center;
+    font-size: 7em;
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: 1;
+    text-decoration: none;
+    color: #fff;
+    cursor: default;
+    font-family: Audiowide;
+    animation: neon5 1.5s ease-in-out infinite alternate;
+}
+@keyframes neon5 {
+    from {
+      text-shadow: 0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #cff109,
+      0 0 82px #cff109,
+      0 0 92px #cff109,
+      0 0 102px #cff109,
+      0 0 151px #cff109;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #cff109,
+        0 0 35px #cff109, 0 0 40px #cff109, 0 0 50px #cff109, 0 0 75px #cff109,  0 0 100px #cff109, 0 0 125px #cff109 ;
+    }
+  }
+
+
+
+
+
+  .addtask {
+      width: 60%;
+    flex: 1 1 auto;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    font-size: x-large;
+   }
+  
+  .addtask:hover {
+    background-position: right center; /* change the direction of the change here */
+  }
+  .addtask {
+    background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+  }
+
+
+
+
+  .clearform{
+      width: 25%;
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 3px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  font-size: large;
+ }
+
+   .clearform{
+    background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+  }
+  .clearform:hover {
+    background-position: right center; /* change the direction of the change here */
+  }
